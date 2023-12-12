@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Galada&family=Tiro+Bangla&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  <style>
+    body {
+      background-color:#fff;
+      margin: 50px;
+    }
+
+    .area {
+      background-color: #0D1A2D;
+      width: 100%;
+      height: 600px;;
+      margin: auto;
+      padding-top: 40px;
+      
+
+    }
+
+    .main {
+      margin: auto;
+      background-color: #14273E;
+      width: 275px;
+      height: 500px;
+      padding: 20px;
+      border: solid black 3px;
+      border-radius: 10px;
+      
+    }
+    .eq_image {
+      width: 275px;
+      height: 250px;
+      border-radius: 10px;
+    }
+    .name {
+      color: #fff;
+      
+    }
+
+    .eq_p {
+      color: #8BACD9;
+
+    }
+    .cry_image {
+      width: 20px;
+      display: inline;
+
+    }
+    .clock {
+
+    }
+    .create {
+      width: 30px;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="area">
+    <div class="sub-area">
+
+    
+    <div class="main">
+      <img src="images/image-equilibrium.jpg" alt="image-equilibrium" class="eq_image">
+      <h3 class="name">Equilibrium #3429</h3>
+      <p class="eq_p">Our Equilibrium cillection promotes balance and calm.</p>
+
+      <div style="display: flex;align-items: center;text-align: center;float: inline-start;">
+        <img src="image crystal.png" alt="crystal" class="cry_image">
+        <p style="display: inline; color: #00D8CC;"><b>0.041ETH</b></p>
+      </div>
+      
+      <div style="display: flex;align-items: center;text-align: center;float: inline-end;">
+        <img src="images/icon-clock.svg" alt="clock" class="clock">
+        <p style="display: inline; color: #8BACD9;padding-left: 10px;">3 days left</p>
+      </div>
+      <hr style="clear: both;">
+      <div style="display: flex;text-align: center;align-items: center;">
+      <img src="images/image-avatar.png" alt="" class="create">
+      <p style="display: inline; color:#8BACD9; padding-left: 10px;">Creation by <b style="color:#fff;">Jules Wyvern</b></p>
+    </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
